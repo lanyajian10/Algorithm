@@ -34,24 +34,26 @@ import java.util.Arrays;
 
  */
 public class Demo {
-
     public static void main(String[] args) {
 
-//                int[] arr = {1,9,6,3,2,8};
+//        int[]  arr = {8,9,1,7,2,3,5,4,6,0};   //希尔
+//        int[]arr = {-9,78,0,23,-567,70};    //快排
+
 
         int[] arr = new int[100000];
         for (int i= 0; i<100000; i++) {
             arr[i] = (int)(Math.random() * 100000);
         }
         long start = System.currentTimeMillis();
+//        Sort1bubbling.sort(arr);      //冒泡排序          23s
+//        Sort2Choose.sort(arr);        //选择排序          9s
+//        Sort3Insert.mysort(arr);        //插入自写方法       9s
+//        Sort3Insert.sort(arr);        //插入排序          2s
+//        Sort4Shell.changeSort(arr);   //希尔排序--交换法   16s
+//        Sort4Shell.sort(arr);         //希尔排序--移动法   31ms
+//        Sort5Quick.sort(arr, 0, arr.length-1);    //快速排序  31ms
 
-
-//        Sort1bubbling.sort(arr);    //冒泡排序  23s
-//        Sort1Choose.sort(arr);    //选择排序  9s
-//        Sort1Insert.sort(arr);    //插入排序  2s
-        Sort1Insert.mysort(arr);    //插入自写方法 9s
-
-
+        Sort6Merget.sort(arr, 0, arr.length-1,new int[arr.length]); //归并排序 30ms
         long end = System.currentTimeMillis();
         long time = end - start  ;
         System.out.println("执行时间："+time);

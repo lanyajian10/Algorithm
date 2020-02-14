@@ -29,6 +29,12 @@ com.test5.Recursion
         
 com.test6.Sort
 
-        Demo                    算法种类、时间复杂度
+        Demo                    算法种类、时间复杂度，排序测试入口
+        Sort1bubbing            冒泡排序
+        Sort2Choose             选择排序
+        Sort3Insert             插入排序
+        Sort4Shell              希尔排序
+        Sort5Quick              快速排序
+        Sort6Merget             归并排序
     
     
