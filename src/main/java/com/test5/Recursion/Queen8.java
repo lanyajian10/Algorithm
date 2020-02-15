@@ -16,7 +16,9 @@ public class Queen8 {
     private static int count = 0;
     //计数器2 多少次检查放置
     private static int count2 = 0;
+
     public static void main(String[] args) {
+
         Queen8 queen8 = new Queen8();
         //从第一行第一列开始：
         queen8.go(0);

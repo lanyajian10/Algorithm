@@ -33,11 +33,6 @@ public class MiGong {
      * @return
      */
     private static boolean canGo(int[][] arr, int i, int j) {
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         if (arr[6][5] == 2){
             //找到终点
             return true;
