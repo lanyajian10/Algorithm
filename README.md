@@ -37,4 +37,14 @@ DataStructures.test6.Sort
         Sort5Quick              快速排序
         Sort6Merget             归并排序
     
-    
+DataStructures.test6.Sort
+
+        Demo                     查找算法:二分查找/折半查找,插值查找,斐波那契查找
+        Search1Binary            二分查找/折半查找
+        Search1Binary            插值查找
+        Search1Fibonacci         斐波那契查找
+        
+Algorithm.test7.HashTable
+
+        Demo                     哈希表数据结构
+        ArrAndLinkedToHT         数组+链表模拟哈希表结构

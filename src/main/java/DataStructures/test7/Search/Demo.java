@@ -30,12 +30,12 @@ public class Demo {
 
 //        int t = Search1Binary.search(arr, 0, 0, arr.length);  //二分查找一个
 //        List<Integer> integers = Search1Binary.searchAll(arr, 5, 0, arr.length); //二分查找所有
-
+        int t = Search1Fibonacci.sort(arr, 3);
 
         long end = System.currentTimeMillis();
         long time = end - start  ;
         System.out.println("执行时间："+time);
-//        System.out.println("查找结果："+t);
+        System.out.println("查找结果："+t);
 //        System.out.println("查找结果："+integers.toString());
     }
 }
