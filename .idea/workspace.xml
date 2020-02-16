@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cc5f98d-d8a9-49ba-be8c-c267b3df2130" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test5/Recursion/MiGong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructures/test5/Recursion/MiGong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test5/Recursion/Queen8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructures/test5/Recursion/Queen8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test6/Sort/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort1bubbling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort1bubbling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort2Choose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort2Choose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort3Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort3Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort4Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort4Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort5Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort5Quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort6Merget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort6Merget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort7Radix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort7Radix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test7/Search/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test7/Search/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test7/Search/Search1Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test7/Search/Search1Binary.java" afterDir="false" />
-    </list>
+    <list default="true" id="0cc5f98d-d8a9-49ba-be8c-c267b3df2130" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +14,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="204">
+                <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,7 +60,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort1Shell.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort1Quick.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort6Merget.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/test5/Recursion/MiGong.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test5/Recursion/Queen8.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort4Shell.java" />
@@ -71,6 +68,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test7/Search/Search1Binary.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test7/Search/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataStructures/Sort/Sort3Insert.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/DataStructures/test7/Search/Demo.java" />
       </list>
     </option>
   </component>
@@ -137,16 +136,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -310,7 +300,7 @@
       <workItem from="1581582801317" duration="13160000" />
       <workItem from="1581673648881" duration="13311000" />
       <workItem from="1581751962691" duration="10470000" />
-      <workItem from="1581856341690" duration="2117000" />
+      <workItem from="1581856341690" duration="3053000" />
     </task>
     <task id="LOCAL-00001" summary="算法学习笔记">
       <created>1581584003559</created>
@@ -340,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581780598452</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="算法学习笔记">
+      <created>1581861426459</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581861426459</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -349,7 +346,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109591000" />
+    <option name="totallyTimeSpent" value="110527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -400,21 +397,21 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test3/LinkedList/DoubleLinkedListDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/DoubleLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-939">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test2/ArrAsQueue/CricleArrQueueDemo2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test2/ArrAsQueue/CricleArrQueueDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="652">
           <caret line="108" column="16" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test4/Stack/LinkedStackDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test4/Stack/LinkedStackDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
           <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
@@ -436,65 +433,55 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.ME" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test2/ArrAsQueue/ArrAsQueueDemo1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test2/ArrAsQueue/ArrAsQueueDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test1/ChessArr/ArrToChess.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test1/ChessArr/ArrToChess.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test3/LinkedList/Demo1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/Demo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test3/LinkedList/CircleLinkededListDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/CircleLinkededListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test4/Stack/ArrStackDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test4/Stack/ArrStackDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test3/LinkedList/SingleLinkedListDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/SingleLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="149" column="13" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test4/Stack/calculatorDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test4/Stack/calculatorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
           <caret line="43" column="55" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -568,17 +555,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test7/Search/Search1Binary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test7/Search/Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructures/test7/Search/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
@@ -628,8 +605,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DataStructures/test7/Search/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataStructures/test7/Search/Search1Binary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
