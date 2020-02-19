@@ -1,4 +1,4 @@
-package Algorithm.test5.HashTable;
+package Algorithm.test8.HashTable;
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class ArrAndLinkedToHT {
         while (true) {
             System.out.println("输入l查看列表：");
             System.out.println("输入a添加元素：");
-
+            System.out.println("输入g添加元素：");
             char key = scanner.next().charAt(0);
             switch (key) {
                 case 'l':
@@ -30,6 +30,11 @@ public class ArrAndLinkedToHT {
                     String name = scanner.next();
                     Node node = new Node(no, name);
                     hashTable.add(node);
+                    break;
+                case 'g':
+                    System.out.println("请输入编号：");
+                    int no1 = scanner.nextInt();
+                    System.out.println(hashTable.get(no1));
                     break;
                 default:
                     break;
@@ -57,6 +62,11 @@ class HashTable{
         arr[make].add(node);
     }
 
+    public Node get(int i){
+        int make = make(i);
+        return arr[make].get(i);
+    }
+
     public void list(){
         for (int i=0; i<size; i++) {
             arr[i].list(i);
@@ -71,6 +81,19 @@ class HashTable{
 //链表
 class NodeLinked {
     private Node head;
+
+    public Node get(int no){
+
+        if (head == null) {
+            return null;
+        }
+        Node temp = head;
+        while (temp != null) {
+            if (temp.no == no) break;
+            temp = temp.next;
+        }
+        return temp;
+    }
 
     //增
     public void add(Node node){

@@ -2,6 +2,11 @@ package DataStructures.test6.Sort;
 
 /**
  * 希尔排序
+ *
+ * 插入排序的改进
+ *
+ * 长度/2  直到为1为止
+ *
  * @author YJ Lan
  * @create 2020-02-14-19:07
  */

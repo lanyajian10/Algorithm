@@ -37,14 +37,20 @@ DataStructures.test6.Sort
         Sort5Quick              快速排序
         Sort6Merget             归并排序
     
-DataStructures.test6.Sort
+DataStructures.test7.Sort
 
         Demo                     查找算法:二分查找/折半查找,插值查找,斐波那契查找
         Search1Binary            二分查找/折半查找
         Search1Binary            插值查找
         Search1Fibonacci         斐波那契查找
         
-Algorithm.test7.HashTable
+Algorithm.test8.HashTable
 
         Demo                     哈希表数据结构
         ArrAndLinkedToHT         数组+链表模拟哈希表结构
+        
+Algorithm.test9.Tree
+
+        Demo                    树
+        Tree1Binary             二叉树 前序中序后序遍历、查找
+        Tree2ArrBinaryTreeDemo  表示二叉树的数组的 前中后序遍历
