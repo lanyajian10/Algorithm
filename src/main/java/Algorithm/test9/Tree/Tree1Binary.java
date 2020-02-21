@@ -27,8 +27,8 @@ public class Tree1Binary {
         binaryTree.setRoot(root);
 //        System.out.println("前序遍历");
 //        binaryTree.front();
-//        System.out.println("中序遍历");
-//        binaryTree.mid();
+        System.out.println("中序遍历");
+        binaryTree.mid();
 //        System.out.println("后序遍历");
 //        binaryTree.later();
 
@@ -43,8 +43,8 @@ public class Tree1Binary {
 //        System.out.println(node);
 
 
-        binaryTree.remove(10);
-        binaryTree.front();
+//        binaryTree.remove(10);
+//        binaryTree.front();
     }
 
 }
@@ -189,11 +189,11 @@ class Node{
     //中序遍历 --- 先左，再父，最后右
     public void mid(){
         if (this.left != null) {
-            this.left.front();
+            this.left.mid();
         }
         System.out.println(this);
         if (this.right != null) {
-            this.right.front();
+            this.right.mid();
         }
 
     }

@@ -36,7 +36,7 @@ public class Sort3Insert {
             value = arr[i];
             index = i-1;
 
-            while (index>=0 && arr[index] < value) {
+            while (index>=0 && arr[index] > value) {
                 arr[index + 1] = arr[index];
                 index --;
             }

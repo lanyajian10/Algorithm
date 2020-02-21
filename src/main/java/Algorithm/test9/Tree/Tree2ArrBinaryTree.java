@@ -5,7 +5,7 @@ package Algorithm.test9.Tree;
  * @author YJ Lan
  * @create 2020-02-19-15:19
  */
-public class Tree2ArrBinaryTreeDemo {
+public class Tree2ArrBinaryTree {
 
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,7};

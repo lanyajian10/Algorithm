@@ -36,6 +36,8 @@ DataStructures.test6.Sort
         Sort4Shell              希尔排序
         Sort5Quick              快速排序
         Sort6Merget             归并排序
+        Sort7Radix              基数排序
+        Sort8Heap               堆排序
     
 DataStructures.test7.Sort
 
@@ -53,4 +55,7 @@ Algorithm.test9.Tree
 
         Demo                    树
         Tree1Binary             二叉树 前序中序后序遍历、查找
-        Tree2ArrBinaryTreeDemo  表示二叉树的数组的 前中后序遍历
+        Tree2ArrBinaryTree      顺序存储二叉树的 前中后序遍历
+        Tree3ThreadBinary       线索二叉树  前中后序的创建和遍历
+        Tree4Huffman            赫/霍夫曼树  创建
+        

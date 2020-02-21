@@ -48,9 +48,9 @@ public class Demo {
 //        Sort1bubbling.sort(arr);      //冒泡排序          23s
 //        Sort2Choose.sort(arr);        //选择排序          9s
 //        Sort3Insert.mysort(arr);        //插入自写方法       9s
-//        Sort3Insert.sort(arr);        //插入排序          2s
+        Sort3Insert.sort(arr);        //插入排序          2s
 //        Sort4Shell.changeSort(arr);   //希尔排序--交换法   16s
-        Sort4Shell.sort(arr);         //希尔排序--移动法   31ms
+//        Sort4Shell.sort(arr);         //希尔排序--移动法   31ms
 //        Sort5Quick.sort(arr, 0, arr.length-1);    //快速排序  31ms
 //        Sort6Merget.sort(arr, 0, arr.length-1,new int[arr.length]); //归并排序 30ms
 //        Sort7Radix.sort(arr); //  基数排序  19ms

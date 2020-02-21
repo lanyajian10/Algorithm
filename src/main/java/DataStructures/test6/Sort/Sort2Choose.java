@@ -17,15 +17,16 @@ public class Sort2Choose {
         int minindex = 0;
         int min = 0;
         //只交换一次
-        for (int i=0; i<arr.length-1; i++) {
+        for (int i=0; i<arr.length; i++) {
             minindex = i;
             min = arr[i];
             for(int j=i+1; j<arr.length; j++) {
-                if (arr[i] > arr[j]) {
+                if (arr[j] < min) {
                     min = arr[j];
                     minindex = j;
                 }
             }
+
             if (minindex != i) {
                 arr[minindex] = arr[i];
                 arr[i] = min;
