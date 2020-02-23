@@ -2,6 +2,7 @@ package Algorithm.test11.BinarySortTree;
 
 /**
  * 二叉排序树  BST
+ * 中序遍历从小到大
  * @author YJ Lan
  * @create 2020-02-23-09:56
  */
