@@ -59,3 +59,9 @@ Algorithm.test9.Tree
         Tree3ThreadBinary       线索二叉树  前中后序的创建和遍历
         Tree4Huffman            赫/霍夫曼树  创建
         
+DataStructures.test10.HuffmanCode
+
+        HuffmanCode             赫夫曼编码、压缩解压
+        
+        
+        

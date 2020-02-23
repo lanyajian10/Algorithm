@@ -34,7 +34,7 @@ public class calculatorDemo {
     }
     // 逆波兰表达式 计算结果
     public static void cal(List<String> list){
-        Stack<String> stack = new Stack<>();
+        Stack<String> stack = new Stack<String>();
 
         for (String str : list) {
             if (str.matches("\\d+")) {
