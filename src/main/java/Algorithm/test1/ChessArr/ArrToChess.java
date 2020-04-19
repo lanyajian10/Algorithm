@@ -1,6 +1,7 @@
 package Algorithm.test1.ChessArr;
 
 import java.io.*;
+import java.util.Arrays;
 
 /**
  * 二维数组---》 稀疏数组
@@ -9,35 +10,25 @@ import java.io.*;
  */
 public class ArrToChess {
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) {
         //声明二维数组
         int [][] arr = new int[11][11];
         arr[1][5] = 2;
         arr[3][6] = 1;
-
-        System.out.println("---------------------------");
-        System.out.println("打印出二维数组如下：");
-        for (int[] arr1 : arr){
-            for (int i=0; i<arr1.length; i++){
-                System.out.print(arr1[i]+" ");
-            }
-            System.out.println();
-        }
-
-        System.out.println("---------------------------");
-
+        //打印二维数组
+        ArraystoString(arr);
         int sum = 0;
         for (int[] arr1 : arr){
-            for (int i=0; i<arr1.length; i++){
-                if (arr1[i] != 0){
+            for (int i : arr1) {
+                if (i != 0){
                     sum++;
                 }
             }
         }
-        System.out.println("算出二维数组的有效数组个数"+sum);
-        System.out.println("---------------------------");
-        System.out.println("二维数组转散列数组并打印并保存到文件中");
 
+
+        System.out.print("------------------Array >>>> Chess AND ");
+//
         int[][] chessArr = new int[sum+1][3];
         chessArr[0][0] = 11;
         chessArr[0][1] = 11;
@@ -54,59 +45,77 @@ public class ArrToChess {
             }
         }
 
-        OutputStream os = new FileOutputStream("test.txt");
-
-        for (int[] chessArr1 : chessArr){
-            for (int chess : chessArr1){
-                System.out.printf("%d\t",chess);
-                os.write((chess+",").getBytes("UTF-8"));
+        System.out.println("Chess >>> File--------------------");
+        OutputStream os = null;
+        ObjectOutputStream oos = null;
+        try {
+            os = new FileOutputStream("test.txt");
+            oos = new ObjectOutputStream(os);
+            for (int[] chessArr1 : chessArr){
+                    oos.writeObject(chessArr1);
+                System.out.println(Arrays.toString(chessArr1));
             }
-            os.write("\n".getBytes("UTF-8"));
-            System.out.println();
+        } catch (Exception e) {
+        } finally {
+            try {
+                oos.close();
+                os.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
-        System.out.println("---------------------------");
-        System.out.println("从文件取出并转成数组");
-        InputStream is = new FileInputStream("test.txt");
-        BufferedReader bis = new BufferedReader(new InputStreamReader(is));
-        String s = bis.readLine();
-        String[] split = s.split(",");
-        int[][] chessArr1 = new int[Integer.parseInt(split[2])+1][3];
-        chessArr1[0][0] = Integer.parseInt(split[0]);
-        chessArr1[0][1] = Integer.parseInt(split[1]);
-        chessArr1[0][2] = Integer.parseInt(split[2]);
 
-        s = bis.readLine();
-        count = 0;
-        while (s!= null){
-            count++;
-            split = s.split(",");
-            for (int i=0; i<split.length;i++){
-                if(split[i] != null){
-                    chessArr1[count][i] = Integer.parseInt(split[i]);
+
+        System.out.println("--------------------File >>> Chess--------------------");
+        InputStream is = null;
+        ObjectInputStream ois = null;
+        int[][] chessArr1 = null;
+        try {
+            is = new FileInputStream("test.txt");
+            ois = new ObjectInputStream(is);
+            int[] s = (int[])ois.readObject();
+            chessArr1 = new int[s[2]+1][3];
+            chessArr1[0][0] = s[0];
+            chessArr1[0][1] = s[1];
+            chessArr1[0][2] = s[2];
+            count = 0;
+            while (true) {
+                count++;
+                try {
+                    s = (int[])ois.readObject();
+                } catch (EOFException e) {
+                    break;
                 }
+                chessArr1[count][0]=s[0];
+                chessArr1[count][1]=s[1];
+                chessArr1[count][2]=s[2];
             }
-            s = bis.readLine();
-        }
+        }catch (Exception ex){
 
-        for (int[] chessArr11 : chessArr1){
-            for (int chess : chessArr11){
-                System.out.printf("%d\t",chess);
+        }finally {
+            try {
+                ois.close();
+                is.close();
+            } catch (Exception e) {
+
             }
-            System.out.println();
         }
-        System.out.println("---------------------------");
-        System.out.println("散列数组转化为二维数组");
+        ArraystoString(chessArr1);
+
+
+        System.out.println("--------------------Chess >>> Array--------------------");
         int[][] arr1 = new int[chessArr1[0][0]][chessArr1[0][1]];
         for (int i=1; i<=chessArr1[0][2];i++){
             arr1[chessArr1[i][0]][chessArr1[i][1]] = chessArr1[i][2];
         }
+        ArraystoString(arr1);
 
-        for (int[] arr11 : arr1){
-            for (int a=0; a<arr11.length; a++){
-                System.out.print(arr11[a]+" ");
-            }
-            System.out.println();
+
+    }
+
+    private static void ArraystoString(int[][] arr) {
+        for (int[] arr1 : arr){
+            System.out.println(Arrays.toString(arr1));
         }
-
     }
 }

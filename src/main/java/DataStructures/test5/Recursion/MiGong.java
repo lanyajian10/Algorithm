@@ -1,5 +1,7 @@
 package DataStructures.test5.Recursion;
 
+import java.util.Arrays;
+
 /**
  * 递归的运用之----迷宫
  * @author YJ Lan
@@ -63,11 +65,8 @@ public class MiGong {
 
     //打印二维数组
     private static void printt(int[][] arry) {
-        for (int i = 0; i<arry.length; i++) {
-            for (int j=0; j<arry[i].length; j++) {
-                System.out.print(arry[i][j]+" ");
-            }
-            System.out.println();
+        for (int[] ints : arry) {
+            System.out.println(Arrays.toString(ints));
         }
     }
 

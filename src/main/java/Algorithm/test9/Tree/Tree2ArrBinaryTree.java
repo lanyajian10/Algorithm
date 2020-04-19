@@ -1,7 +1,7 @@
 package Algorithm.test9.Tree;
 
 /**
- * 顺序存储二叉树
+ * 顺序存储二叉树 的  前中后序遍历
  * @author YJ Lan
  * @create 2020-02-19-15:19
  */

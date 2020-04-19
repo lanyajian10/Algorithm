@@ -35,7 +35,7 @@ public class HuffmanCode {
     }
 
     /**
-     *  解压
+     *  解压文件
      * @param srcFile
      * @param desFile
      */
@@ -70,7 +70,7 @@ public class HuffmanCode {
     }
 
     /**
-     *
+     *  压缩文件
      * @param srcFile
      * @param desFile
      */

@@ -11,9 +11,11 @@ import java.util.Stack;
  * 逆波兰计算器
  *  1+((2+3)*4)-5 => [1,+,(,(,2,+,3,),*,4,),-,5]
  * 1.中缀表达式--->数组
+ *
  * [1,+,(,(,2,+,3,),*,4,),-,5] => [1,2,3,+,4,*,+,5,-]
  * 2.数组---->逆波兰表达式
- *  （3+4）*5-6 => 3 4 + 5 * 6 -  => 29
+ *
+ *  （2+3）*4+1-5 => 3 4 + 5 * 6 -  => 29
  * 3.逆波兰表达式（后缀表达式）--->结果
  *
  * 综合：中缀->结果
@@ -23,7 +25,7 @@ import java.util.Stack;
 public class calculatorDemo {
 
     public static void main(String[] args) {
-        String str = "1+((2+3)*4)-15";
+        String str = "1+((2+3)*4)-5";
         //转数组
         List<String> list = strToList(str);
         System.out.println(list);

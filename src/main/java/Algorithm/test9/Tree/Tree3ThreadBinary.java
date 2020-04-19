@@ -2,6 +2,12 @@ package Algorithm.test9.Tree;
 
 /**
  * 线索二叉树
+ *  优点：
+ *   利用其中序遍历，无需采用堆栈处理，速度较一般二叉树遍历块，且节约空间
+ *   任意一个节点，都可以直接找到他的前驱后继节点
+ *  缺点：
+ *   插入和删除比较麻烦
+ *   线索子树不能共用
  * @author YJ Lan
  * @create 2020-02-20-15:34
  */
@@ -23,9 +29,9 @@ public class Tree3ThreadBinary {
 
         ThreadBinaryTree threadBinaryTree = new ThreadBinaryTree();
 
-//        threadBinaryTree.createFrontThreadThree(root);
+        threadBinaryTree.createFrontThreadThree(root);
 //        threadBinaryTree.createMidThreadTree(root);
-        threadBinaryTree.createLaterThreadThree(root);
+//        threadBinaryTree.createLaterThreadThree(root);
 //        System.out.println(root.left);
 //        System.out.println(root.right);
 //        System.out.println(node22.left);
@@ -34,13 +40,13 @@ public class Tree3ThreadBinary {
 //        System.out.println(node31.right);
 
         threadBinaryTree.root = root;
-//        threadBinaryTree.frontList();
+        threadBinaryTree.frontList();
 //        threadBinaryTree.midList();
 
         //特别注意：这块难点
-        node21.parent = root;
-        node22.parent = root;
-        threadBinaryTree.laterList();
+//        node21.parent = root;
+//        node22.parent = root;
+//        threadBinaryTree.laterList();
 
     }
 }
@@ -74,7 +80,7 @@ class ThreadBinaryTree{
         TNode temp = root;
         while (temp != null) {
 
-            //找到第一个做节点是前继节点的节点
+            //找到第一个左节点是前继节点的节点
             while (temp.leftType != 1) {
                 temp = temp.left;
             }
@@ -206,7 +212,7 @@ class TNode{
 
     public TNode parent;
 
-    // 0：左子节点  1：前驱结点
+    // 0：左子节点  1：前继结点
     public int leftType = 0;
     // 0：右子节点  1：后继结点
     public int rightType = 0;

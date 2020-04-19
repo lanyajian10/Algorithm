@@ -36,14 +36,14 @@ import java.util.Arrays;
 public class Demo {
     public static void main(String[] args) {
 
-        int[]  arr = {8,9,1,7,2,3,5,4,6,0};   //希尔
+//        int[]  arr = {8,9,1,7,2,3,5,4,6,0};   //希尔
 //        int[] arr = {-9,78,0,23,-567,70};    //快排
 
 
-//        int[] arr = new int[100000];
-//        for (int i= 0; i<100000; i++) {
-//            arr[i] = (int)(Math.random() * 100000) +1;
-//        }
+        int[] arr = new int[10000000];
+        for (int i= 0; i<10000000; i++) {
+            arr[i] = (int)(Math.random() * 10000000);
+        }
         long start = System.currentTimeMillis();
 //        Sort1bubbling.sort(arr);      //冒泡排序          23s
 //        Sort2Choose.sort(arr);        //选择排序          9s
@@ -53,10 +53,10 @@ public class Demo {
 //        Sort4Shell.sort(arr);         //希尔排序--移动法   31ms
 //        Sort5Quick.sort(arr, 0, arr.length-1);    //快速排序  31ms
 //        Sort6Merget.sort(arr, 0, arr.length-1,new int[arr.length]); //归并排序 30ms
-//        Sort7Radix.sort(arr); //  基数排序  19ms
+        Sort7Radix.sort(arr); //  基数排序  19ms
         long end = System.currentTimeMillis();
         long time = end - start  ;
         System.out.println("执行时间："+time);
-        System.out.println(Arrays.toString(arr));
+//        System.out.println(Arrays.toString(arr));
     }
 }

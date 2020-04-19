@@ -64,7 +64,7 @@ public class ArrAsQueueDemo1 {
 }
 
 class ArrQueue{
-    private int maxSize ; //队列对大容量
+    private int maxSize ; //队列最大容量
     private int font;//队列头
     private int rear;//队列尾
     private int[] arr; //队列存储数据

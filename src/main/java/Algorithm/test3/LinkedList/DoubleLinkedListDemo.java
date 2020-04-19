@@ -80,7 +80,7 @@ class DoubleLinkedList{
         HeroNodeD temp = head.next;
 
         while (true) {
-            if (temp.next == null){
+            if (temp == null){
                 System.out.println("没有找到，删除失败");
                 break;
             }

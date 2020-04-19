@@ -25,7 +25,7 @@ public class CircleLinkededListDemo {
 //        list.add(k4);
 //        prints(2, list);
 
-        Joseph(1, 2, 5);
+        Joseph(2, 2, 5);
     }
 
     /*
@@ -36,7 +36,7 @@ public class CircleLinkededListDemo {
      */
     public static void Joseph(int start, int k, int num){
 
-        if (start > num) {
+        if (start > num || start<1) {
             System.out.println("超出限制");
             return;
         }
@@ -97,7 +97,7 @@ class CircleLinkedList{
             System.out.println("里面没有人");
             return null;
         }
-        if ( link1.next == link1 ){
+        if ( link1.next.no == link1.no ){
             return link1;
         }
         int number = 1;
@@ -136,9 +136,7 @@ class CircleLinkedList{
             link1 = null;
         } else if (node.no == link1.no ) {
             while (true) {
-                if (temp.next == link1) {
-                    temp.next = node;
-                    node.next = link1;
+                if (temp.next.no == link1.no) {
                     break;
                 }
                 temp = temp.next;

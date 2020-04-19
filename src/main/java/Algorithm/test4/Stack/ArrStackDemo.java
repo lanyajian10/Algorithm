@@ -222,9 +222,7 @@ class ArrStack {
     //添加
     public void add(int i){
         if (isFull()) throw new RuntimeException("满了");
-
-        cur++;
-        arr[cur] = i;
+        arr[++cur] = i;
     }
 
     //取出

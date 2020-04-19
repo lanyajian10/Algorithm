@@ -59,6 +59,9 @@ public class CricleArrQueueDemo2 {
                 case 'q':
                     flag = false;
                     break;
+                case 's':
+                    System.out.println(cricleArrQueue.size());
+                    break;
                 default:
                     System.out.println("无效，请重新输入");
                     break;
@@ -132,7 +135,7 @@ class CricleArrQueue{
 
     //获取长度
     public int size(){
-        return  (rest + maxSize - font) % maxSize;
+        return  (rest + maxSize- font) % maxSize;
     }
 
     //获取头
