@@ -74,3 +74,7 @@ dataStructures.test12.AVLTree            AVL树，BST的改进，   B树（B-树
 algorithm.test13.Graph    图
 
         GraphDemo               图的创建、深度优先算法、广度优先算法
+        
+algorithm.test14.divideAndConquer 分治算法
+        
+        hanoiTower              分治算法之-----汉诺塔算法

@@ -2,109 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cc5f98d-d8a9-49ba-be8c-c267b3df2130" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test13/divideAndConquer/hanoiTower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test1/ChessArr/ArrToChess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test11/BinarySortTree/BinarySortTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test11/BinarySortTree/BinarySortTreeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test11/BinarySortTree/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test12/AVLTree/AVLTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test12/AVLTree/AVLTreeDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test12/AVLTree/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test2/ArrAsQueue/ArrAsQueueDemo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test2/ArrAsQueue/ArrQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test2/ArrAsQueue/CricleArrQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test2/ArrAsQueue/CricleArrQueueDemo2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test3/LinkedList/CircleLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test3/LinkedList/CircleLinkededListDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test3/LinkedList/Demo1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test3/LinkedList/DoubleLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test3/LinkedList/DoubleLinkedListDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test3/LinkedList/HeroNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test3/LinkedList/HeroNode3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test3/LinkedList/HeroNodeD.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test3/LinkedList/SingleLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test3/LinkedList/SingleLinkedListDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test4/Stack/ArrStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test4/Stack/ArrStackDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test4/Stack/LinkedStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test4/Stack/LinkedStackDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test4/Stack/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test4/Stack/calculatorDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test8/HashTable/ArrAndLinkedToHT.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test8/HashTable/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test8/HashTable/HashTable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test8/HashTable/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test8/HashTable/NodeLinked.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test9/Tree/BinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test9/Tree/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test9/Tree/HNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test9/Tree/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test9/Tree/TNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test9/Tree/ThreadBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test9/Tree/Tree1Binary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test9/Tree/Tree2ArrBinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test9/Tree/Tree3ThreadBinary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test9/Tree/Tree4Huffman$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test9/Tree/Tree4Huffman$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Algorithm/test9/Tree/Tree4Huffman.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test10/HuffmanCode/HuffmanCode$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test10/HuffmanCode/HuffmanCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test10/HuffmanCode/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test13/Graph/GraphDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test5/Recursion/MiGong.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test5/Recursion/Queen8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test6/Sort/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test6/Sort/Sort1bubbling.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test6/Sort/Sort2Choose.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test6/Sort/Sort3Insert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test6/Sort/Sort4Shell.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test6/Sort/Sort5Quick.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test6/Sort/Sort6Merget.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test6/Sort/Sort7Radix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test6/Sort/Sort8Heap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test7/Search/Demo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test7/Search/Search1Binary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/DataStructures/test7/Search/Search1Fibonacci.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Algorithm.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test1/ChessArr/ArrToChess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test1/ChessArr/ArrToChess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test11/BinarySortTree/BinarySortTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test11/BinarySortTree/BinarySortTreeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test12/AVLTree/AVLTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test12/AVLTree/AVLTreeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test2/ArrAsQueue/ArrAsQueueDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test2/ArrAsQueue/ArrAsQueueDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test2/ArrAsQueue/CricleArrQueueDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test2/ArrAsQueue/CricleArrQueueDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/CircleLinkededListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test3/LinkedList/CircleLinkededListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test3/LinkedList/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/DoubleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test3/LinkedList/DoubleLinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/SingleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test3/LinkedList/SingleLinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test4/Stack/ArrStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test4/Stack/ArrStackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test4/Stack/LinkedStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test4/Stack/LinkedStackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test4/Stack/calculatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test4/Stack/calculatorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test8/HashTable/ArrAndLinkedToHT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test8/HashTable/ArrAndLinkedToHT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test8/HashTable/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test8/HashTable/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test9/Tree/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Tree1Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test9/Tree/Tree1Binary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Tree2ArrBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test9/Tree/Tree2ArrBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Tree3ThreadBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test9/Tree/Tree3ThreadBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Tree4Huffman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructures/test9/Tree/Tree4Huffman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test10/HuffmanCode/HuffmanCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test10/HuffmanCode/HuffmanCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test13/Graph/GraphDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test13/Graph/GraphDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test5/Recursion/MiGong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test5/Recursion/MiGong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test5/Recursion/Queen8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test5/Recursion/Queen8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test6/Sort/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort1bubbling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test6/Sort/Sort1bubbling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort2Choose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test6/Sort/Sort2Choose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort3Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test6/Sort/Sort3Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort4Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test6/Sort/Sort4Shell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort5Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test6/Sort/Sort5Quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort6Merget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test6/Sort/Sort6Merget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort7Radix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test6/Sort/Sort7Radix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test6/Sort/Sort8Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test6/Sort/Sort8Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test7/Search/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test7/Search/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test7/Search/Search1Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test7/Search/Search1Binary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataStructures/test7/Search/Search1Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test7/Search/Search1Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Algorithm/test13/divideAndConquer/hanoiTower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/test13/divideAndConquer/hanoiTower.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -173,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/test7/Search/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="540">
               <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
             </state>
           </provider>
@@ -194,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/test13/divideAndConquer/hanoiTower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="94">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -215,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort1Choose.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort1Insert.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort1Shell.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test6/Sort/Sort1Quick.java" />
@@ -266,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/main/java/DataStructures/test7/Search/Search1Binary.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataStructures/test7/Search/Demo.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithm/test13/divideAndConquer/hanoiTower.java" />
       </list>
     </option>
   </component>
@@ -301,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -358,7 +257,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,6 +265,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/algorithm" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -396,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.hanoiTower">
     <configuration name="AVLTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.test12.AVLTree.AVLTreeDemo" />
       <module name="Algorithm" />
@@ -449,12 +348,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree3ThreadBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.test9.Tree.Tree3ThreadBinary" />
+    <configuration name="hanoiTower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.test13.divideAndConquer.hanoiTower" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.test9.Tree.*" />
+          <option name="PATTERN" value="algorithm.test13.divideAndConquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -464,11 +363,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hanoiTower" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.GraphDemo" />
         <item itemvalue="Application.AVLTreeDemo" />
         <item itemvalue="Application.BinarySortTreeDemo" />
-        <item itemvalue="Application.Tree3ThreadBinary" />
       </list>
     </recent_temporary>
   </component>
@@ -522,6 +421,7 @@
       <workItem from="1587304174136" duration="6634000" />
       <workItem from="1588667363123" duration="5297000" />
       <workItem from="1588678399339" duration="253000" />
+      <workItem from="1588678931445" duration="555000" />
     </task>
     <task id="LOCAL-00001" summary="算法学习笔记">
       <created>1581584003559</created>
@@ -623,7 +523,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243657000" />
+    <option name="totallyTimeSpent" value="244212000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,8 +536,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4860627" visible="true" weight="0.31231004" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4860627" visible="true" weight="0.3176292" />
       <window_info id="Structure" order="1" sideWeight="0.5139373" side_tool="true" weight="0.3024316" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -776,87 +677,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test1/ChessArr/ArrToChess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test2/ArrAsQueue/ArrAsQueueDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="110" column="35" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test2/ArrAsQueue/CricleArrQueueDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="133" column="5" lean-forward="true" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/SingleLinkedListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="197" column="19" selection-start-line="197" selection-start-column="12" selection-end-line="197" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/DoubleLinkedListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562">
-          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/CircleLinkededListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="8" />
-          <folding>
-            <element signature="e#4036#4037#0" expanded="true" />
-            <element signature="e#4064#4065#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test4/Stack/ArrStackDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="154" column="44" selection-start-line="154" selection-start-column="40" selection-end-line="154" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test4/Stack/LinkedStackDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="53" column="6" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test4/Stack/calculatorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="94" column="32" lean-forward="true" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#932#940#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test1/ChessArr/ArrToChess.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test2/ArrAsQueue/ArrAsQueueDemo1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test2/ArrAsQueue/CricleArrQueueDemo2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/SingleLinkedListDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/DoubleLinkedListDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/Demo1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test3/LinkedList/CircleLinkededListDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test4/Stack/ArrStackDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test4/Stack/LinkedStackDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test4/Stack/calculatorDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/test5/Recursion/MiGong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-156">
@@ -878,84 +708,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Tree4Huffman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="76" column="25" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test8/HashTable/ArrAndLinkedToHT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="66" column="28" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="66" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test8/HashTable/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Tree1Binary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1728">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-          <folding>
-            <element signature="method#later#0;class#BinaryTree#0" />
-            <element signature="method#front#0;class#BinaryTree#0" />
-            <element signature="method#Node#0;class#Node#0" />
-            <element signature="method#toString#0;class#Node#0" />
-            <element signature="method#remove#0;class#Node#0" />
-            <element signature="method#later#0;class#Node#0" />
-            <element signature="method#findMid#0;class#Node#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Tree2ArrBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Tree3ThreadBinary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test11/BinarySortTree/BinarySortTreeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test12/AVLTree/AVLTreeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Tree4Huffman.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test8/HashTable/ArrAndLinkedToHT.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test8/HashTable/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Tree1Binary.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Tree2ArrBinaryTree.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test9/Tree/Tree3ThreadBinary.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test11/BinarySortTree/BinarySortTreeDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/test12/AVLTree/AVLTreeDemo.java" />
     <entry file="file://$PROJECT_DIR$/test.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/test6/Sort/Sort1bubbling.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1041,7 +802,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/test7/Search/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="540">
           <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
         </state>
       </provider>
@@ -1058,8 +819,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/test13/divideAndConquer/hanoiTower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="94">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
