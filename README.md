@@ -78,3 +78,14 @@ algorithm.test13.Graph    图
 algorithm.test14.divideAndConquer 分治算法
         
         hanoiTower              分治算法之-----汉诺塔算法
+        
+algorithm.test15.dynamic  动态规划算法
+
+        knapsackProblem         动态规划算法之----背包问题
+        
+algorithm.test16.KMP      匹配算法
+
+        violentMatch            暴力匹配算法
+        KMP                     KMP匹配算法
+        
+algorithm.test17.
