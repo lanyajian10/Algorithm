@@ -112,3 +112,7 @@ algorithm.test21.floyd      弗洛伊德算法
 
         floydAlgorithm      弗洛伊德算法（从每个顶点出发，到所有顶点的最短路径）
                             邻接矩阵：O(v^3)
+                            
+algorithm.test22.horse      马踏棋盘算法
+
+        horseChessBoard     马踏棋盘算法及其贪心算法优化
