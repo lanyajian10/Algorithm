@@ -85,7 +85,30 @@ algorithm.test15.dynamic  动态规划算法
         
 algorithm.test16.KMP      匹配算法
 
-        violentMatch            暴力匹配算法
+        violentMatch            暴力匹配算法（k1去k2中匹配，匹配失败，k1从头）
         KMP                     KMP匹配算法
         
-algorithm.test17.
+algorithm.test17.greed      贪心算法
+
+        greedAlgorithm      贪心算法（建造电台覆盖所有村庄）
+        
+algorithm.test18.prm        普利姆算法(最小生成树)  
+
+        primAlgorithm       普利姆算法（连接各村庄最短线路）
+                            村庄越少，连线越稠，时间复杂度越低
+                            邻接矩阵：O(v^2) 邻接表O(elog2v)
+        
+algorithm.test19.kruskal    克鲁斯卡尔算法（最小生成树）
+
+        kruskalAlgorithm    克鲁斯算法（公交站问题）
+                            连线越稀，时间复杂度越低
+                            O(eloge)
+
+algorithm.test20.dijkstra   迪杰斯特拉算法
+
+        dijkstraAlgorithm   迪杰斯特达算法
+
+algorithm.test21.floyd      弗洛伊德算法
+
+        floydAlgorithm      弗洛伊德算法（从每个顶点出发，到所有顶点的最短路径）
+                            邻接矩阵：O(v^3)

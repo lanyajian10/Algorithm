@@ -16,8 +16,14 @@ public class greedAlgorithm {
         HashMap<String,HashSet<String>> map = new HashMap<String,HashSet<String>>();
         // 盛放所有城市
         HashSet<String> allcity = new HashSet<>();
+        //初始化
         init(map, allcity);
+        //贪心算法
+        greed(map, allcity);
 
+    }
+
+    private static void greed(HashMap<String, HashSet<String>> map, HashSet<String> allcity) {
         //临时存储
         HashSet<String> tool = new HashSet<>();
         //临时存储maxkey
@@ -55,7 +61,6 @@ public class greedAlgorithm {
         select.stream().forEach(item->{
             System.out.println(item);
         });
-
     }
 
     /**
