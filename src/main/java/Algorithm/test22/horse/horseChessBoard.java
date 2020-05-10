@@ -50,11 +50,13 @@ public class horseChessBoard {
         chessboard[colunm][row] = step;
         //表示该已经访问过
         visited[row*X+colunm] = true;
+        //1. 马儿还能走哪些位置，最多8个
         ArrayList<Point> next = next(new Point(colunm, row));
 
         //贪心算法优化（先走回溯步数少的）TODO
         sort(next);
 
+        //2. 在所有可走位置放置
         while (!next.isEmpty()) {
             //取出当前首个可放位置
             Point point = next.remove(0);
@@ -63,7 +65,7 @@ public class horseChessBoard {
                 travelChessboard(chessboard, point.y, point.x, step+1);
             }
         }
-        //判断是否完成
+        //3. 判断是否完成
         //状况1： 未跑完，死路or处于回溯状态
         //状况2： step = X*Y 且 finished=false  棋盘完成
         //状况3： step < X*Y 且 finished=true 棋盘完成，处于回溯状态
