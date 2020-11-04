@@ -1,4 +1,4 @@
-package algorithm.test16.KMP;
+package Algorithm.test16.KMP;
 
 /**
  * 匹配算法之暴力匹配

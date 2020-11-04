@@ -1,4 +1,4 @@
-package Algorithm.test8.HashTable;
+package dataStructures.test8.HashTable;
 
 import java.util.HashMap;
 import java.util.HashSet;

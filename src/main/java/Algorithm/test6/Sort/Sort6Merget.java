@@ -1,4 +1,4 @@
-package algorithm.test6.Sort;
+package Algorithm.test6.Sort;
 
 /**
  * 归并排序

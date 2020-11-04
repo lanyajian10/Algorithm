@@ -1,4 +1,4 @@
-package algorithm.test6.Sort;
+package Algorithm.test6.Sort;
 
 /**
  * 插入排序 O(n^2)

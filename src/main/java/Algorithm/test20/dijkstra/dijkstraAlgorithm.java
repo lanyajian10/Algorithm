@@ -1,4 +1,4 @@
-package algorithm.test20.dijkstra;
+package Algorithm.test20.dijkstra;
 
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package algorithm.test10.HuffmanCode;
+package Algorithm.test10.HuffmanCode;
 
 import java.io.*;
 import java.util.*;

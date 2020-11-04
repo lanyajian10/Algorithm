@@ -1,4 +1,4 @@
-package Algorithm.test1.ChessArr;
+package dataStructures.test1.ChessArr;
 
 import java.io.*;
 import java.util.Arrays;

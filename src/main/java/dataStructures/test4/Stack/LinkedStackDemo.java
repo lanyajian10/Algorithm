@@ -1,4 +1,4 @@
-package Algorithm.test4.Stack;
+package dataStructures.test4.Stack;
 
 import java.util.Scanner;
 

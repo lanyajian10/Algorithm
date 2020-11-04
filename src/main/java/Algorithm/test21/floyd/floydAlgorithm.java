@@ -1,4 +1,4 @@
-package algorithm.test21.floyd;
+package Algorithm.test21.floyd;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package algorithm.test17.greed;
+package Algorithm.test17.greed;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package algorithm.test15.dynamic;
+package Algorithm.test15.dynamic;
 
 import java.util.Arrays;
 

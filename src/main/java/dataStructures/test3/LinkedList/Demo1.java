@@ -1,4 +1,4 @@
-package Algorithm.test3.LinkedList;
+package dataStructures.test3.LinkedList;
 
 /**
  * @author YJ Lan

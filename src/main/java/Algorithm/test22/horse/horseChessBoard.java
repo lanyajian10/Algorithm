@@ -1,4 +1,4 @@
-package algorithm.test22.horse;
+package Algorithm.test22.horse;
 
 
 import java.awt.*;

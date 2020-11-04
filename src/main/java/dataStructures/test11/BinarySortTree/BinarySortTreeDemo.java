@@ -1,4 +1,4 @@
-package Algorithm.test11.BinarySortTree;
+package dataStructures.test11.BinarySortTree;
 
 /**
  * 二叉排序树  BST

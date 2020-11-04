@@ -1,4 +1,4 @@
-package algorithm.test19.kruskal;
+package Algorithm.test19.kruskal;
 
 import com.sun.org.apache.bcel.internal.generic.NEW;
 

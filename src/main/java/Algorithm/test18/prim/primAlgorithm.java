@@ -1,4 +1,4 @@
-package algorithm.test18.prim;
+package Algorithm.test18.prim;
 
 import java.util.Arrays;
 

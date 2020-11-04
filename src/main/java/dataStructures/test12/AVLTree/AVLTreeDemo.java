@@ -1,4 +1,4 @@
-package Algorithm.test12.AVLTree;
+package dataStructures.test12.AVLTree;
 
 /**
  * @author YJ Lan

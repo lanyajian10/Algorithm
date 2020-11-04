@@ -1,4 +1,4 @@
-package algorithm.test14divideAndConquer;
+package Algorithm.test14.divideAndConquer;
 
 /**
  * 分治算法（问题拆解）-----汉诺塔算法

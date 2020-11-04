@@ -1,4 +1,4 @@
-package algorithm.test16.KMP;
+package Algorithm.test16.KMP;
 
 import java.util.Arrays;
 

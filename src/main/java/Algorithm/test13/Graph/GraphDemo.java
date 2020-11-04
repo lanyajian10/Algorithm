@@ -1,4 +1,4 @@
-package algorithm.test13.Graph;
+package Algorithm.test13.Graph;
 
 import java.util.ArrayList;
 import java.util.Arrays;

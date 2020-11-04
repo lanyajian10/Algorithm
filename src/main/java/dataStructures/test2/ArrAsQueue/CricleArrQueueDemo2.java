@@ -1,4 +1,4 @@
-package Algorithm.test2.ArrAsQueue;
+package dataStructures.test2.ArrAsQueue;
 
 import java.util.Scanner;
 

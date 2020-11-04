@@ -1,4 +1,4 @@
-package algorithm.test7.Search;
+package Algorithm.test7.Search;
 
 import java.util.Arrays;
 

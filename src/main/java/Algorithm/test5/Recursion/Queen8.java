@@ -1,4 +1,4 @@
-package algorithm.test5.Recursion;
+package Algorithm.test5.Recursion;
 
 /**
  * 8皇后
